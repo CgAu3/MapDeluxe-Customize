@@ -516,10 +516,10 @@ TCHAR* CodeTran_Obj(u16 code)
 	case 0x2301:return _T("»ğÇò");
 	case 0x2401:return _T("Õë´Ì");
 	case 0x2501:return _T("UFO");
-	//case 0x2601:return _T("ÑôÉ¡");//
+	case 0x2601:return _T("ÑôÉ¡(ÒÑÉ¾)");//
 	case 0x2701:return _T("Öí");
 	//case 0x2801:return _T("ÏûÊ§");//
-	//case 0x2901:return _T("²»¶¯µÄ´¸×Ó");//
+	case 0x2901:return _T("²»¶¯µÄ´¸×Ó(ÒÑÉ¾)");//
 	//case 0x2A01:return _T("ÌùÍ¼´íÎó");//
 	case 0x0003:return _T("Dedede");
 	case 0x0103:return _T("»­»­");
@@ -540,7 +540,7 @@ TCHAR* CodeTran_Obj(u16 code)
 	case 0x0504:return _T("ĞÇĞÇ°ô");
 	case 0x0105:return _T("°´Å¥");
 	case 0x0205:return _T("µ¼»ğË÷Í·");
-	//case 0x0305:return _T("´óÅÚ??");
+	case 0x0305:return _T("Ä¾×®");
 	case 0x0405:return _T("´«ËÍĞÇ");
 	//case 0x0505:return _T("");//
 	case 0x0605:return _T("´óÅÚ");
