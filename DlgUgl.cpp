@@ -102,7 +102,8 @@ BOOL CDlgUgl::OnInitDialog()
 	scrinfo.fMask=SIF_PAGE|SIF_RANGE|SIF_POS;
 	scrinfo.nPage=vsrc.bottom-vsrc.top;
 	scrinfo.nMin=0;
-	scrinfo.nMax=(UGL_GMAP_MAX_COUNT/16+1)*16-scrinfo.nPage;
+	scrinfo.nMax = (UGL_GMAP_MAX_COUNT / 16 + 1) * 16;
+	//scrinfo.nMax=(UGL_GMAP_MAX_COUNT/16+1)*16-scrinfo.nPage;
 	scrinfo.nPos=0;
 	m_ScrollGmap.SetScrollInfo(&scrinfo);
 
