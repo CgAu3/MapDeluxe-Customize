@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件&amp;头文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件&amp;头文件\Dialog_Obj">
+      <UniqueIdentifier>{f2bea957-570d-45d4-aadc-1ef587dd5756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件&amp;头文件\Dialog_Door">
+      <UniqueIdentifier>{0a621c6a-1835-45c9-8c63-2288533e0922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件&amp;头文件\Dialog_Ugl">
+      <UniqueIdentifier>{ddd6f9b7-f649-45d7-afbe-6e97877401e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件&amp;头文件\Main">
+      <UniqueIdentifier>{e6ed86e7-533c-498f-b275-ea5470bf705f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件&amp;头文件\RomDecoding">
+      <UniqueIdentifier>{3bfbe1dd-798e-40fd-a64a-360bbe2457da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件&amp;头文件\OtherDialog">
+      <UniqueIdentifier>{b4aa4a53-a72e-48f8-af89-bf1d9462f186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="资料">
+      <UniqueIdentifier>{544119d7-63cc-4de2-b1aa-1d93eba26c47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DlgBoss.cpp">
+      <Filter>源文件&amp;头文件\Dialog_Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgObj.cpp">
+      <Filter>源文件&amp;头文件\Dialog_Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgObjParam.cpp">
+      <Filter>源文件&amp;头文件\Dialog_Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDoor.cpp">
+      <Filter>源文件&amp;头文件\Dialog_Door</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDoorAdd.cpp">
+      <Filter>源文件&amp;头文件\Dialog_Door</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUgl.cpp">
+      <Filter>源文件&amp;头文件\Dialog_Ugl</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUglColor.cpp">
+      <Filter>源文件&amp;头文件\Dialog_Ugl</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUglGmap.cpp">
+      <Filter>源文件&amp;头文件\Dialog_Ugl</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUglTile.cpp">
+      <Filter>源文件&amp;头文件\Dialog_Ugl</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDeluxe.cpp">
+      <Filter>源文件&amp;头文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDeluxeDlg.cpp">
+      <Filter>源文件&amp;头文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBarText.cpp">
+      <Filter>源文件&amp;头文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件&amp;头文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeTran.cpp">
+      <Filter>源文件&amp;头文件\RomDecoding</Filter>
+    </ClCompile>
+    <ClCompile Include="GraAssoc.cpp">
+      <Filter>源文件&amp;头文件\RomDecoding</Filter>
+    </ClCompile>
+    <ClCompile Include="MdxStepFile.cpp">
+      <Filter>源文件&amp;头文件\RomDecoding</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAbout.cpp">
+      <Filter>源文件&amp;头文件\OtherDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgResize.cpp">
+      <Filter>源文件&amp;头文件\OtherDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgRomImage.cpp">
+      <Filter>源文件&amp;头文件\OtherDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DlgBoss.h">
+      <Filter>源文件&amp;头文件\Dialog_Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgObj.h">
+      <Filter>源文件&amp;头文件\Dialog_Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgObjParam.h">
+      <Filter>源文件&amp;头文件\Dialog_Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDoor.h">
+      <Filter>源文件&amp;头文件\Dialog_Door</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDoorAdd.h">
+      <Filter>源文件&amp;头文件\Dialog_Door</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUgl.h">
+      <Filter>源文件&amp;头文件\Dialog_Ugl</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUglColor.h">
+      <Filter>源文件&amp;头文件\Dialog_Ugl</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUglGmap.h">
+      <Filter>源文件&amp;头文件\Dialog_Ugl</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUglTile.h">
+      <Filter>源文件&amp;头文件\Dialog_Ugl</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDeluxe.h">
+      <Filter>源文件&amp;头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDeluxeDlg.h">
+      <Filter>源文件&amp;头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>源文件&amp;头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>源文件&amp;头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>源文件&amp;头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeTran.h">
+      <Filter>源文件&amp;头文件\RomDecoding</Filter>
+    </ClInclude>
+    <ClInclude Include="GraAssoc.h">
+      <Filter>源文件&amp;头文件\RomDecoding</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDataType.h">
+      <Filter>源文件&amp;头文件\RomDecoding</Filter>
+    </ClInclude>
+    <ClInclude Include="MdxStepFile.h">
+      <Filter>源文件&amp;头文件\RomDecoding</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAbout.h">
+      <Filter>源文件&amp;头文件\OtherDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgResize.h">
+      <Filter>源文件&amp;头文件\OtherDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgRomImage.h">
+      <Filter>源文件&amp;头文件\OtherDialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00006.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00007.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00008.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00009.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00010.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00011.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00012.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00013.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00014.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00015.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00016.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00017.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00018.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00019.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00020.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00021.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00022.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MapDeluxe.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GraAssocTable.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MapDeluxe.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapDeluxe.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="RomRebuild.txt">
+      <Filter>资料</Filter>
+    </Text>
+    <Text Include="RomRebuild_v3.txt">
+      <Filter>资料</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

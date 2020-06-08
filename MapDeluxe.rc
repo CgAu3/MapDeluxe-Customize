@@ -1,0 +1,639 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\MapDeluxe.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MapDeluxe.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 463, 341
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "MapDeluxe"
+MENU IDR_MENU_MAIN
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE_FILE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,0,30,108,294
+    EDITTEXT        IDC_EDIT_FILE,0,18,108,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "地图信息",IDC_STATIC_GROPMAPINFO,114,0,348,72
+    EDITTEXT        IDC_EDIT_STEP_NUMBER,121,10,131,12,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_COMBO_BGM,138,24,103,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "BGM",IDC_STATIC_BGM,120,24,18,8
+    CONTROL         "地图数据已压缩",IDC_CHECK_LZ77,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,258,11,66,12
+    EDITTEXT        IDC_EDIT_CLIP_X,162,42,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CLIP_Y,162,54,24,12,ES_AUTOHSCROLL
+    LTEXT           "左右剪裁",IDC_STATIC_CLIP_X,120,42,42,12
+    LTEXT           "上下剪裁",IDC_STATIC_CLIP_Y,120,54,42,12
+    LTEXT           "起始横坐标",IDC_STATIC_BEGIN_X,192,42,48,12
+    LTEXT           "起始纵坐标",IDC_STATIC_BEGIN_Y,192,54,48,12
+    EDITTEXT        IDC_EDIT_BEGIN_X,240,42,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BEGIN_Y,240,54,24,12,ES_AUTOHSCROLL
+    LTEXT           "前景贴图库",IDC_STATIC_FRT,114,234,54,12
+    LTEXT           "背景贴图库",IDC_STATIC_BCK,156,234,48,12
+    EDITTEXT        IDC_EDIT_PLT_FRT,114,246,42,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_TILE_FRT,114,258,42,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_PLT_BCK,156,246,42,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "背景纵向偏移",IDC_STATIC_UNK36,270,42,48,12
+    EDITTEXT        IDC_EDIT_UNK36,318,42,36,12,ES_AUTOHSCROLL
+    LTEXT           "动态贴图",IDC_STATIC_GRA_ANI,114,300,36,12
+    LTEXT           "关联脚本",IDC_STATIC_UNK54,270,54,45,12
+    CONTROL         "unknown0x55",IDC_CHECK_UNK55,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,380,5,54,12
+    CONTROL         "背景滚动",IDC_CHECK_BCKROLL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,380,18,48,12
+    EDITTEXT        IDC_EDIT_BCK_MOV,318,30,36,12,ES_AUTOHSCROLL
+    LTEXT           "背景移动速率",IDC_STATIC_BCK_MOV,270,30,48,12
+    COMBOBOX        IDC_COMBO_SPCMAP,325,15,51,12,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "特殊地图",IDC_STATIC,324,6,42,8
+    SCROLLBAR       IDC_SCROLLBAR_MAPH,126,90,336,12
+    SCROLLBAR       IDC_SCROLLBAR_MAPV,114,102,12,108,SBS_VERT
+    COMBOBOX        IDC_COMBO_MAPCHG,118,75,72,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    SCROLLBAR       IDC_SCROLLBAR_GRALIB,198,228,12,96,SBS_VERT
+    LTEXT           "",IDC_STATIC_LIB_INFO,372,222,90,48,WS_BORDER,WS_EX_CLIENTEDGE
+    ICON            IDR_MAINFRAME,IDC_STATIC_ICON,0,0,20,20
+    LTEXT           "欢迎使用MapDeluxe！",IDC_STATIC_TITLE,22,4,74,12
+    CONTROL         "掀开",IDC_CHECK_NEST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,192,78,27,9
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",WS_BORDER,404,331,59,10
+    CONTROL         "自动填充掀开数据",IDC_CHECK_NEST_AUTO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,222,78,72,9
+    LTEXT           "在地图上点鼠标左键进行修改，按住鼠标左键移动可连续修改。鼠标右键清空数据（掀开模式下直接删除掀开数据。鼠标中键为吸管功能，可以吸取图案。",IDC_STATIC_MAPEDIT,114,210,258,19
+    CONTROL         "将未知量""Edg""修改为下面的数值",IDC_CHECK_EDG,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,372,277,84,18
+    EDITTEXT        IDC_EDIT_EDG,372,294,84,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "更改调色板",IDC_BUTTON_PLT_FRT_CHG,114,282,42,12
+    PUSHBUTTON      "更改贴图库",IDC_BUTTON_TILE_FRT_CHG,114,270,42,12
+    PUSHBUTTON      "更改背景",IDC_BUTTON_BCK_CHG,156,282,42,12
+    COMBOBOX        IDC_COMBO_GRA_ANI,114,312,54,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "同时显示贴图与判定",IDC_CHECK_MAP_OUT_BCK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,369,77,84,11
+    LTEXT           "全屏风",IDC_STATIC_WIND,361,29,42,12
+    COMBOBOX        IDC_COMBO_WIND,361,41,96,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "开启临近贴图提示",IDC_CHECK_GRA_ASSOC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,372,312,84,12
+    COMBOBOX        IDC_COMBO_SCRIPT_ID,318,55,90,12,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_RESIZE DIALOGEX 0, 0, 154, 105
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改地图尺寸..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,48,90,50,14
+    PUSHBUTTON      "取消",IDCANCEL,102,90,50,14
+    LTEXT           "当前尺寸:",IDC_STATIC_SIZE,6,6,96,12,0,WS_EX_CLIENTEDGE
+    LTEXT           "新尺寸:",IDC_STATIC_RESIZE,6,24,30,12
+    EDITTEXT        IDC_EDIT_WIDTH,36,24,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HEIGHT,96,24,54,12,ES_AUTOHSCROLL
+    LTEXT           "×",IDC_STATIC,88,25,8,12
+    LTEXT           "将已有的地图数据...",IDC_STATIC_MOVEDATA,6,42,78,12
+    CONTROL         "左上角对齐",IDC_RADIO_LEFT_TOP,"Button",BS_AUTORADIOBUTTON,6,54,54,12
+    CONTROL         "右上角对齐",IDC_RADIO_RIGHT_TOP,"Button",BS_AUTORADIOBUTTON,66,54,54,12
+    CONTROL         "左下角对齐",IDC_RADIO_LEFT_BUTTON,"Button",BS_AUTORADIOBUTTON,6,66,54,12
+    CONTROL         "右下角对齐",IDC_RADIO_RIGHT_BUTTON,"Button",BS_AUTORADIOBUTTON,66,66,54,12
+END
+
+IDD_DOOR DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "传送门数据"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,205,162,50,14
+    PUSHBUTTON      "取消",IDCANCEL,259,162,50,14
+    CONTROL         "",IDC_LIST_DOOR,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,6,306,144
+    PUSHBUTTON      "添加",IDC_DOOR_ADD,7,162,44,14
+    PUSHBUTTON      "删除",IDC_DOOR_DELETE,51,162,44,14
+END
+
+IDD_DOOR_ADD DIALOGEX 0, 0, 190, 105
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加传送门数据项"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,84,90,50,14
+    PUSHBUTTON      "取消",IDCANCEL,138,90,50,14
+    COMBOBOX        IDC_COMBO_DOORCLASS,6,6,180,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Param0",IDC_STATIC_DOOR_P0,6,24,102,12
+    LTEXT           "Param0",IDC_STATIC_DOOR_P1,6,36,102,12
+    LTEXT           "Param0",IDC_STATIC_DOOR_P2,6,48,102,12
+    LTEXT           "Param0",IDC_STATIC_DOOR_P3,6,60,102,12
+    LTEXT           "Param0",IDC_STATIC_DOOR_P4,6,72,102,12
+    EDITTEXT        IDC_EDIT_DOOR_P0,108,24,78,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DOOR_P1,108,36,54,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DOOR_P2,108,48,54,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DOOR_P3,108,60,78,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DOOR_P4,108,72,78,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "坐标预设",IDC_BUTTON_DOOR_XY,162,36,24,24,BS_MULTILINE
+END
+
+IDD_ROM_IMAGE DIALOGEX 0, 0, 166, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "自定义游戏起始画面"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,60,144,50,14
+    PUSHBUTTON      "取消",IDCANCEL,114,144,50,14
+    PUSHBUTTON      "导入图片...",IDC_BUTTON_IMP_ROM_IMAGE,90,126,72,18
+    LTEXT           "图片尺寸为240*160。由于颜色格式不同，导入的图片将会有些许的颜色失真。",IDC_STATIC,6,108,156,18
+    CONTROL         "开启自定义起始画面",IDC_CHECK_USE_IMAGE,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,0,126,90,18
+END
+
+IDD_OBJ DIALOGEX 0, 0, 312, 279
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "编辑物件"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,258,156,50,14
+    SCROLLBAR       IDC_OBJ_HSCROLL,12,0,300,12
+    SCROLLBAR       IDC_OBJ_VSCROLL,0,12,12,132,SBS_VERT
+    CONTROL         "移动时对齐到网格",IDC_CHECK_GRID_ALIGN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,174,80,14
+    LTEXT           "操作说明：鼠标左键拖动可移动物品，在物品上单击右键可删除物品，按住Ctrl键拖动物品可复制出一个新的物品。双击物品可编辑其属性。在空白处双击可新增物品",IDC_STATIC_OBJ_HELP,90,150,150,42
+    CONTROL         "纵向排列。如果是竖版地图请勾选此项。此项会影响物件的正常出现",IDC_CHECK_OBJ_VERTICAL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,198,252,12
+    PUSHBUTTON      "清除所有物件",IDC_BUTTON_OBJ_CLEAR,258,198,54,12
+    PUSHBUTTON      "添加小BOSS",IDC_BUTTON_ADD_BOSS,6,150,72,18
+    CONTROL         "自动为补给品分配缓存编号",IDC_CHECK_AUTO_BUFIDX,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,6,216,294,60
+END
+
+IDD_OBJ_PARAM DIALOGEX 0, 0, 170, 128
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "物件属性..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,66,114,50,14
+    PUSHBUTTON      "取消",IDCANCEL,120,114,50,14
+    LTEXT           "种类",IDC_STATIC_OBJ_CLASS,0,0,36,12
+    COMBOBOX        IDC_COMBO_OBJ_CLASS,36,0,132,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_OBJ_P1,78,18,90,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "调色板\\编号\\补给品未知",IDC_STATIC_OBJ_P1,0,18,72,12
+    LTEXT           "(行为)",IDC_STATIC_OBJ_P2,0,30,72,12
+    EDITTEXT        IDC_EDIT_OBJ_P3,78,48,90,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "当玩家数量小于等于右侧数值时屏蔽此小怪(0~3)",IDC_STATIC_OBJ_P3,0,42,60,36
+    EDITTEXT        IDC_EDIT_OBJ_P4,78,84,90,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "速度(0~31)",IDC_STATIC_OBJ_P4,0,84,60,12
+    CONTROL         "浮空",IDC_CHECK_OBJ_FLOAT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,138,30,30,12
+    COMBOBOX        IDC_EDIT_OBJ_P2,78,30,60,12,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 120, 243
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于MapDeluxe"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,70,228,50,14
+    EDITTEXT        IDC_EDIT1,0,54,120,102,ES_MULTILINE | ES_READONLY | WS_VSCROLL
+    CONTROL         "百度星之卡比吧\n欢迎大家！",IDC_COMMAND_BAIDU,"Button",BS_COMMANDLINK | WS_TABSTOP,0,156,119,42
+    CONTROL         "查看软件更新页面",IDC_COMMAND_TIEZE,"Button",BS_COMMANDLINK | WS_TABSTOP,0,198,119,30
+END
+
+IDD_BOSS DIALOGEX 0, 0, 294, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "小BOSS属性……"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,168,66,50,14
+    PUSHBUTTON      "取消",IDCANCEL,234,66,50,14
+    COMBOBOX        IDC_COMBO_BOSS_LOCK,66,0,174,12,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "BOSS锁闭选项：",IDC_STATIC_BOSS_LOCK,0,0,66,12
+    LTEXT           "第一个BOSS属性:",IDC_STATIC_BOSS_FST,0,30,66,12
+    CONTROL         "开启第二个BOSS",IDC_CHECK_BOSS_SND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,48,72,12
+    LTEXT           "种类",IDC_STATIC_BOSS_CLASS,72,18,30,12
+    COMBOBOX        IDC_COMBO_BOSS_CLASS1,72,30,66,12,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_BOSS_CLASS2,72,48,66,12,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "调色板编号",IDC_STATIC_BOSS_PLT,144,18,42,12
+    EDITTEXT        IDC_EDIT_BOSS_PLT1,144,30,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_BOSS_PLT2,144,48,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "增加HP",IDC_CHECK_BOSS_HP1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,198,30,42,12
+    CONTROL         "增加HP",IDC_CHECK_BOSS_HP2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,198,48,42,12
+    CONTROL         "(不明选项)",IDC_CHECK_BOSS_BOOL1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,240,30,54,12
+    CONTROL         "(不明选项)",IDC_CHECK_BOSS_BOOL2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,240,48,54,12
+END
+
+IDD_UGL DIALOGEX 0, 0, 520, 213
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "编辑贴图库"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,414,192,50,14
+    PUSHBUTTON      "取消",IDCANCEL,468,192,50,14
+    CONTROL         "",IDC_SLIDER_UGL_PLT,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_TOP | WS_TABSTOP,0,30,24,108
+    LTEXT           "调色面#?",IDC_STATIC_UGL_PLT,24,18,60,12
+    EDITTEXT        IDC_EDIT_UGL_TITLE,24,0,72,12,ES_AUTOHSCROLL
+    LTEXT           "标题",IDC_STATIC_UGL_TITLE,0,0,24,12
+    LTEXT           "瓦图:",IDC_STATIC_UGL_TILE,234,0,42,12
+    LTEXT           "PLT",IDC_STATIC_UGL_COLOR,84,144,72,36
+    CONTROL         "",IDC_SLIDER_UGL_TILE_PLT,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,234,174,96,18
+    CONTROL         "启用用行#8和行#9",IDC_CHECK_UGL_PLT_EXT,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,84,12,84,18
+    LTEXT           "TILE",IDC_STATIC_UGL_TILE_INFO,234,192,90,12
+    SCROLLBAR       IDC_SCROLLBAR_UGL_GMAP,330,18,12,150,SBS_VERT
+    PUSHBUTTON      "导入已有贴图库",IDC_BUTTON_UGL_IMPORT_SYS,0,198,66,12
+END
+
+IDD_UGL_COLOR DIALOGEX 0, 0, 106, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "编辑颜色"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,0,162,50,14
+    PUSHBUTTON      "取消",IDCANCEL,54,162,50,14
+    CONTROL         "",IDC_SLIDER_UGL_COLOR_R,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_TOP | WS_TABSTOP,0,0,24,120
+    CONTROL         "",IDC_SLIDER_UGL_COLOR_G,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_TOP | WS_TABSTOP,36,0,24,120
+    CONTROL         "",IDC_SLIDER_UGL_COLOR_B,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_TOP | WS_TABSTOP,72,0,24,120
+    LTEXT           "静态",IDC_STATIC_UGL_COLOR_R,0,120,24,12
+    LTEXT           "静态",IDC_STATIC_UGL_COLOR_G,36,120,24,12
+    LTEXT           "静态",IDC_STATIC_UGL_COLOR_B,72,120,24,12
+END
+
+IDD_UGL_TILE DIALOGEX 0, 0, 86, 141
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "编辑瓦图"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,0,126,42,14
+    PUSHBUTTON      "取消",IDCANCEL,44,126,42,14
+    LTEXT           "静态",IDC_STATIC_UGL_TILL_CHOOSE_COLOR,0,114,84,12
+END
+
+IDD_UGL_GMAP DIALOGEX 0, 0, 166, 138
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "编辑映射"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,117,50,14
+    PUSHBUTTON      "取消",IDCANCEL,60,117,50,14
+    EDITTEXT        IDC_EDIT_UGL_GMAP_TILE0,6,6,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_UGL_GMAP_PLT0,6,18,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "左右翻转",IDC_CHECK_UGL_GMAP_FLIP_X0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,30,48,12
+    CONTROL         "上下翻转",IDC_CHECK_UGL_GMAP_FLIP_Y0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,42,48,12
+    EDITTEXT        IDC_EDIT_UGL_GMAP_TILE1,60,6,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_UGL_GMAP_PLT1,60,18,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "左右翻转",IDC_CHECK_UGL_GMAP_FLIP_X1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,30,48,12
+    CONTROL         "上下翻转",IDC_CHECK_UGL_GMAP_FLIP_Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,42,48,12
+    EDITTEXT        IDC_EDIT_UGL_GMAP_TILE2,6,60,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_UGL_GMAP_PLT2,6,73,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "左右翻转",IDC_CHECK_UGL_GMAP_FLIP_X2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,84,48,12
+    CONTROL         "上下翻转",IDC_CHECK_UGL_GMAP_FLIP_Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,97,48,12
+    EDITTEXT        IDC_EDIT_UGL_GMAP_TILE3,60,60,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_UGL_GMAP_PLT3,60,73,48,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "左右翻转",IDC_CHECK_UGL_GMAP_FLIP_X3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,84,48,12
+    CONTROL         "上下翻转",IDC_CHECK_UGL_GMAP_FLIP_Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,97,48,12
+    LTEXT           "←瓦图编号",IDC_STATIC_UGL_GMAP_TILE,108,6,54,12
+    LTEXT           "←调色行编号",IDC_STATIC_UGL_GMAP_PLT,108,18,54,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,0,0,1
+ PRODUCTVERSION 6,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "wwylele"
+            VALUE "FileDescription", "MapDeluxe - 星之卡比梦之泉地图编辑器"
+            VALUE "FileVersion", "6, 0, 0, 1"
+            VALUE "InternalName", "MapDeluxe.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2012 - 2013"
+            VALUE "OriginalFilename", "MapDeluxe.exe"
+            VALUE "ProductName", "MapDeluxe"
+            VALUE "ProductVersion", "6, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 456
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 334
+    END
+
+    IDD_RESIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_DOOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DOOR_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_ROM_IMAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_OBJ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 270
+    END
+
+    IDD_OBJ_PARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 113
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+
+    IDD_BOSS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_UGL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 513
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_UGL_COLOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 99
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_UGL_TILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 79
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_UGL_GMAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DET                 BITMAP                  "res\\bitmap1.bmp"
+IDB_NEST                BITMAP                  "res\\bmp00001.bmp"
+IDB_LOGO                BITMAP                  "res\\bmp00002.bmp"
+IDB_M_ABOUT             BITMAP                  "res\\bmp00003.bmp"
+IDB_M_NEW               BITMAP                  "res\\bmp00004.bmp"
+IDB_M_OPEN              BITMAP                  "res\\bmp00005.bmp"
+IDB_M_SAVE              BITMAP                  "res\\bmp00006.bmp"
+IDB_M_SAVEAS            BITMAP                  "res\\bmp00007.bmp"
+IDB_M_SAVE_FINAL        BITMAP                  "res\\bmp00008.bmp"
+IDB_M_GAME_TEST         BITMAP                  "res\\bmp00009.bmp"
+IDB_M_ROM_IMAGE         BITMAP                  "res\\bmp00010.bmp"
+IDB_M_UNDO              BITMAP                  "res\\bmp00011.bmp"
+IDB_M_REDO              BITMAP                  "res\\bmp00012.bmp"
+IDB_M_XZKBB             BITMAP                  "res\\bmp00013.bmp"
+IDB_M_RESIZE            BITMAP                  "res\\bmp00014.bmp"
+IDB_M_DOOR              BITMAP                  "res\\bmp00015.bmp"
+IDB_M_OBJ               BITMAP                  "res\\bmp00016.bmp"
+IDB_M_STEP_IMPORT       BITMAP                  "res\\bmp00017.bmp"
+IDB_M_STEP_EXPORT       BITMAP                  "res\\bmp00018.bmp"
+IDB_M_WIND              BITMAP                  "res\\bmp00019.bmp"
+IDB_M_SAVETEST          BITMAP                  "res\\bmp00020.bmp"
+IDB_OBJ_TEX             BITMAP                  "res\\bmp00021.bmp"
+IDB_KIRBY               BITMAP                  "res\\bmp00022.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_MAIN MENU 
+BEGIN
+    POPUP "文件"
+    BEGIN
+        MENUITEM "新建\tCtrl+N",                  ID_M_NEW
+        MENUITEM "新建空白游戏\tCtrl+Shift+N",        ID_M_NEW_WHITE
+        MENUITEM "打开\tCtrl+O",                  ID_M_OPEN
+        MENUITEM "保存\tCtrl+S",                  ID_M_SAVE
+        MENUITEM "另存为\tCtrl+Shift+S",           ID_M_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "生成最终版游戏\tF7",                 ID_M_SAVE_FINAL
+        MENUITEM "测试游戏\tF5",                    ID_M_GAME_TEST
+        MENUITEM SEPARATOR
+        MENUITEM "自定义游戏起始画面",                   ID_M_ROM_IMAGE
+        MENUITEM SEPARATOR
+        MENUITEM "退出\tEsc",                     ID_M_EXIT
+    END
+    POPUP "编辑"
+    BEGIN
+        MENUITEM "撤销\tCtrl+Z",                  ID_M_UNDO
+        MENUITEM "重复\tCtrl+Y",                  ID_M_REDO
+    END
+    POPUP "地图"
+    BEGIN
+        MENUITEM "修改地图尺寸\tF2",                  ID_M_RESIZE
+        MENUITEM "编辑传送装置\tF3",                  ID_M_DOOR
+        MENUITEM "编辑物件\tF4",                    ID_M_OBJ
+        MENUITEM SEPARATOR
+        MENUITEM "清空地图",                        ID_M_CLEAR_MAP
+        MENUITEM "复位地图",                        ID_M_RESET_MAP
+        MENUITEM SEPARATOR
+        MENUITEM "导出当前地图",                      ID_M_STEP_EXPORT
+        MENUITEM "导入地图",                        ID_M_STEP_IMPORT
+        MENUITEM SEPARATOR
+        MENUITEM "测试地图占用空间\tF8",                ID_M_SAVE_TEST
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "帮助\tF1",                      ID_HELP
+        MENUITEM "关于MapDeluxe",                 ID_M_ABOUT
+        MENUITEM "访问百度星之卡比吧",                   ID_M_XZKBB
+        MENUITEM "访问相关主题",                      ID_M_TIEZI
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+ID_MENU_MAIN ACCELERATORS 
+BEGIN
+    VK_F3,          ID_M_DOOR,              VIRTKEY, NOINVERT
+    VK_ESCAPE,      ID_M_EXIT,              VIRTKEY, NOINVERT
+    VK_F5,          ID_M_GAME_TEST,         VIRTKEY, NOINVERT
+    "N",            ID_M_NEW,               VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_M_NEW_WHITE,         VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_F4,          ID_M_OBJ,               VIRTKEY, NOINVERT
+    "O",            ID_M_OPEN,              VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_M_REDO,              VIRTKEY, CONTROL, NOINVERT
+    VK_F2,          ID_M_RESIZE,            VIRTKEY, NOINVERT
+    "S",            ID_M_SAVE,              VIRTKEY, CONTROL, NOINVERT
+    VK_F7,          ID_M_SAVE_FINAL,        VIRTKEY, NOINVERT
+    VK_F8,          ID_M_SAVE_TEST,         VIRTKEY, NOINVERT
+    "S",            ID_M_SAVEAS,            VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "Z",            ID_M_UNDO,              VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_MAPCHG,              VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_NESTCHG,             VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BIN
+//
+
+IDR_GRAASSOCTABLE       BIN                     "res\\GraAssocTable.bin"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\MapDeluxe.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
